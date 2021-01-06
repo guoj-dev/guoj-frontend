@@ -25,8 +25,8 @@ export default {
                 },
                 {
                     icon: "mdi-code-tags-check",
-                    to:"",
-                    text: "提交记录",
+                    to:"SubmissionList",
+                    text: "评测",
                 },
                 {
                     icon: "mdi-calendar",
