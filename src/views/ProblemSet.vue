@@ -138,7 +138,7 @@
                     </v-col>
                 </v-row>
             </div>
-            <div class="text-center">
+            <div class="text-center mb-4">
                 <v-pagination
                     v-model="page"
                     length="20"

@@ -29,6 +29,12 @@ const routes = [
           import(/* webpackChunkName: "about" */ '../views/ContestCenter.vue'),
     },
     {
+      path: '/OrganizationCenter/',
+      name: 'OrganizationCenter',
+      component: () =>
+          import(/* webpackChunkName: "about" */ '../views/OrganizationCenter.vue'),
+    },
+    {
         path: '/UserInfo/',
         name: 'UserInfo',
         component: () =>

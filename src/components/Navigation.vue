@@ -20,7 +20,7 @@ export default {
                 },
                 {
                     icon: "mdi-account-group",
-                    to:"",
+                    to:"OrganizationCenter",
                     text: "团队",
                 },
                 {
