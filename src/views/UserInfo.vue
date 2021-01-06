@@ -46,14 +46,12 @@
                     </v-hover>
                     <div class="fill-height">
                         <div
-                            class="text-h5 font-weight-black"
-                            style="color: #fff; text-shadow: 1px 1px 3px #333"
+                            class="text-h5 font-weight-black title-white"
                         >
                             琪露诺
                         </div>
                         <div
-                            class="text-subtitle-2 font-weight-black"
-                            style="color: #fff; text-shadow: 1px 1px 3px #333"
+                            class="text-subtitle-2 font-weight-black title-white"
                         >
                             老娘是最强哒！
                         </div>
@@ -120,5 +118,9 @@ export default {};
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
+}
+.title-white {
+    color: #fff; 
+    text-shadow: 1px 1px 3px #333
 }
 </style>
