@@ -45,6 +45,22 @@ const routes = [
             ),
     },
     {
+        path: "/DiscussionHome/",
+        name: "DiscussionHome",
+        component: () =>
+            import(
+                /* webpackChunkName: "about" */ "../views/DiscussionHome.vue"
+            ),
+    },
+    {
+        path: "/DiscussionView/",
+        name: "DiscussionView",
+        component: () =>
+            import(
+                /* webpackChunkName: "about" */ "../views/DiscussionView.vue"
+            ),
+    },
+    {
         path: "/UserInfo/",
         name: "UserInfo",
         component: () =>

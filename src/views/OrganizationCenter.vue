@@ -5,7 +5,7 @@
             <span class="mx-4">团队中心</span>
         </div>
 
-        <v-card class="pa-4 mb-8">
+        <v-card class="px-4 pt-6 pb-10 mb-8">
             <div
                 class="d-flex aliign-center text-h4 font-weight-black mb-4 mx-4"
             >

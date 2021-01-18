@@ -1,13 +1,13 @@
 <template>
     <v-card class="group-card elevation-4">
         <div class="group-profile-img-layer">
-            <v-img
-                class="group-profile-img"
-                :aspect-ratio="16 / 8"
-                width="25vw"
-                :src="background"
-            >
-            </v-img>
+                <v-img
+                    class="group-profile-img"
+                    :aspect-ratio="16 / 8"
+                    width="25vw"
+                    :src="background"
+                >
+                </v-img>
             <div class="d-flex group-profile-layer align-center mx-2">
                 <v-avatar size="72" class="group-profile-avatar">
                     <v-img :src="avatar"></v-img>
