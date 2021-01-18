@@ -7,11 +7,14 @@
         <v-container>
             <div class="d-flex">
                 <v-card
-                    class="status-card flex-grow-1 mx-4"
+                    class="d-inline-flex status-card flex-grow-1 mx-4"
                     min-height="20vh"
                     color="cyan"
                     dark
                 >
+                    <div class="status-card-icon-layer ma-4">
+                        <v-icon class="status-card-icon" size="100">mdi-calendar-today</v-icon>
+                    </div>
                     <div class="d-flex status-card-content-layer ma-4">
                         <span class="text-h4 font-weight-bold align-self-end"
                             >今日评测量</span
@@ -20,11 +23,14 @@
                     </div>
                 </v-card>
                 <v-card
-                    class="status-card flex-grow-1 mx-4"
+                    class="d-inline-flex status-card flex-grow-1 mx-4"
                     min-height="20vh"
                     color="success"
                     dark
                 >
+                    <div class="status-card-icon-layer ma-4">
+                        <v-icon class="status-card-icon" size="100">mdi-calendar-week</v-icon>
+                    </div>
                     <div class="d-flex status-card-content-layer ma-4">
                         <span class="text-h4 font-weight-bold align-self-end"
                             >本周评测量</span
@@ -33,11 +39,14 @@
                     </div>
                 </v-card>
                 <v-card
-                    class="status-card flex-grow-1 mx-4"
+                    class="d-inline-flex status-card flex-grow-1 mx-4"
                     min-height="20vh"
                     color="red"
                     dark
                 >
+                    <div class="status-card-icon-layer ma-4">
+                        <v-icon class="status-card-icon" size="100">mdi-server-network</v-icon>
+                    </div>
                     <div class="d-flex status-card-content-layer ma-4">
                         <span class="text-h4 font-weight-bold align-self-end"
                             >在线评测机</span
@@ -46,11 +55,14 @@
                     </div>
                 </v-card>
                 <v-card
-                    class="status-card flex-grow-1 mx-4"
+                    class="d-inline-flex status-card flex-grow-1 mx-4"
                     min-height="20vh"
                     color="info"
                     dark
                 >
+                    <div class="status-card-icon-layer ma-4">
+                        <v-icon class="status-card-icon" size="100">mdi-account-group</v-icon>
+                    </div>
                     <div class="d-flex status-card-content-layer ma-4">
                         <span class="text-h4 font-weight-bold align-self-end"
                             >活跃用户</span
@@ -64,7 +76,7 @@
                     <v-col cols="8">
                         <v-card class="pa-4">
                             <div
-                                class="d-flex aliign-center text-h4 font-weight-black mx-5 mb-4"
+                                class="d-flex aliign-center text-h4 font-weight-black mx-5 mt-2 mb-4"
                             >
                                 <v-icon class="title-icon"
                                     >mdi-check-network</v-icon
@@ -140,7 +152,7 @@
                     <v-col cols="4">
                         <v-card class="pa-4">
                             <div
-                                class="d-flex aliign-center text-h4 font-weight-black mb-4"
+                                class="d-flex aliign-center text-h4 font-weight-black mt-2 mb-4"
                             >
                                 <v-icon class="title-icon">mdi-filter</v-icon>
                                 <span class="mx-4">筛选</span>
@@ -179,6 +191,15 @@ export default {
     position: absolute;
     bottom: 0px;
     width: calc(100% - 32px);
+    z-index: 1;
+}
+.status-card-icon {
+    color: transparent;
+    background-image: linear-gradient(120deg, rgba(255,255,255,1) 40%, rgba(255,255,255,0) 100%);
+    background-clip: text;
+}
+.status-card-icon-layer {
+    z-index: 2;
 }
 .problem-name-layer {
     text-align: start;

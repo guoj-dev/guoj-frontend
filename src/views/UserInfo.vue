@@ -10,7 +10,6 @@
                     <div
                         v-if="hover"
                         class="d-flex transition-fast-in-fast-out white--text hover-layer"
-                        style="height: 100%"
                     >
                         <v-btn icon x-large class="mx-4" dark>
                             <v-icon> mdi-image-area </v-icon>
@@ -107,12 +106,12 @@ export default {};
     justify-content: center;
     position: absolute;
     width: 100%;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
 }
 .avatar-hover-layer {
     align-items: center;
-    bottom: 0;
     justify-content: center;
     position: absolute;
     width: 100%;

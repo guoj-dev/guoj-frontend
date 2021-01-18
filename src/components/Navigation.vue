@@ -35,7 +35,7 @@ export default {
                 },
                 {
                     icon: "mdi-forum",
-                    to:"",
+                    to:"DiscussionHome",
                     text: "讨论",
                 },
                 {
