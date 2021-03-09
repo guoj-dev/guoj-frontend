@@ -1,6 +1,6 @@
 <template>
     <v-container class="pa-8">
-            <div class="d-flex aliign-center text-h3 font-weight-black my-4">
+            <div class="d-flex aliign-center text-h4 font-weight-black my-4">
                 <v-icon class="title-icon"
                     >mdi-calendar-multiple</v-icon
                 >

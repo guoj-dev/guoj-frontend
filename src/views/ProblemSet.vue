@@ -1,7 +1,7 @@
 <template>
     <div class="ProblemSet pa-8">
         <v-container class="py-0">
-            <div class="d-flex aliign-center text-h3 font-weight-black ma-4">
+            <div class="d-flex aliign-center text-h4 font-weight-black ma-4">
                 <v-icon class="title-icon"
                     >mdi-format-list-bulleted</v-icon
                 >
