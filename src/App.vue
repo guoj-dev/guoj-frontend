@@ -88,11 +88,14 @@
         <v-main>
             <div class="main-view">
                 <vuescroll :ops="ops">
-                    <div style="height: 48px"></div>
-                    <v-card class="main-card mx-10" elevation="6">
+                    <div v-if="isDefaultContainer" style="height: 48px"></div>
+                    <v-card v-if="isDefaultContainer" class="main-card mx-10" elevation="6">
                         <router-view class="main-container" />
                         <global-footer />
                     </v-card>
+                    <div v-else>
+                        <router-view class="main-container" />
+                    </div>
                 </vuescroll>
             </div>
         </v-main>
@@ -108,6 +111,12 @@ export default {
     name: "App",
 
     components: { GlobalFooter, vuescroll, Navigation },
+
+    computed: {
+        isDefaultContainer() {
+            return this.$route.meta.DefaultView;
+        }
+    },
 
     data: () => ({
         ops: {
