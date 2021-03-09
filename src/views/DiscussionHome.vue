@@ -1,6 +1,6 @@
 <template>
     <v-container class="pa-8">
-        <div class="d-flex aliign-center text-h3 font-weight-black my-4">
+        <div class="d-flex aliign-center text-h4 font-weight-black my-4">
             <v-icon class="title-icon">mdi-comment-text-multiple</v-icon>
             <span class="mx-4">论坛</span>
         </div>
