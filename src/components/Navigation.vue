@@ -45,7 +45,7 @@ export default {
                 },
                 {
                     icon: "mdi-layers",
-                    to:"",
+                    to:"Community",
                     text: "社区",
                 },
             ],

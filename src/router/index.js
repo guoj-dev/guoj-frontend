@@ -17,11 +17,11 @@ const routes = [
             import(/* webpackChunkName: "about" */ "../views/ProblemSet.vue"),
     },
     {
-      path: "/SubmissionList/",
-      name: "SubmissionList",
-      component: () =>
-          import(/* webpackChunkName: "about" */ "../views/SubmissionList.vue"),
-  },
+        path: "/SubmissionList/",
+        name: "SubmissionList",
+        component: () =>
+            import(/* webpackChunkName: "about" */ "../views/SubmissionList.vue"),
+    },
     {
         path: "/ProblemView/",
         name: "ProblemView",
@@ -65,6 +65,12 @@ const routes = [
         name: "UserInfo",
         component: () =>
             import(/* webpackChunkName: "about" */ "../views/UserInfo.vue"),
+    },
+    {
+        path: "/Community/",
+        name: "Community",
+        component: () =>
+            import(/* webpackChunkName: "about" */ "../views/Community.vue"),
     },
 ];
 
