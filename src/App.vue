@@ -47,7 +47,7 @@
                         </v-list-item-content>
                     </v-list-item>
                     <v-divider></v-divider>
-                    <v-list-item link>
+                    <v-list-item to="UserInfo">
                         <v-list-item-icon>
                             <v-icon> mdi-clipboard-account </v-icon>
                         </v-list-item-icon>
