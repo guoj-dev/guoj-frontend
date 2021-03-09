@@ -1,6 +1,6 @@
 <template>
 	<div class="home pa-8">
-		<v-container class="mx-0">
+		<v-container class="mx-0" style="max-width:none;">
 			<v-row class="mb-3">
 				<v-col cols="8">
 					<v-card elevation="3" class="rounded-lg flex-grow-1">
