@@ -9,7 +9,7 @@
             <span class="mx-4 text-h5 font-weight-black">最近比赛</span>
         </v-card-title>
         <v-divider />
-        <v-card-text style="height: calc(100% - 68px)" class="d-flex">
+        <v-card-text style="height: calc(100% - 68px);overflow:hidden;" class="d-flex">
             <v-timeline class="pt-2 fill-height" dense>
                 <v-timeline-item
                     class="pb-2"
