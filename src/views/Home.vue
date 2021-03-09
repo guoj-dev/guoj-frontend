@@ -56,7 +56,7 @@
                 >
                     <div style="height: 100%">
                         <v-card-title>
-                            <v-icon class="title-icon" large> mdi-contain </v-icon>
+                            <v-icon class="home-icon" large> mdi-contain </v-icon>
                             <div class="text-h5 font-weight-black mx-4">
                                 从这里开始
                             </div>
@@ -72,7 +72,7 @@
                                             v-bind="attrs"
                                             v-on="on"
                                         >
-                                            <v-icon size="72" class="title-icon ma-8">
+                                            <v-icon size="72" class="home-icon ma-8">
                                                 mdi-marker-check
                                             </v-icon>
                                         </v-card>
@@ -87,7 +87,7 @@
                                             v-bind="attrs"
                                             v-on="on"
                                         >
-                                            <v-icon size="72" class="title-icon ma-8">
+                                            <v-icon size="72" class="home-icon ma-8">
                                                 mdi-forum
                                             </v-icon>
                                         </v-card>
@@ -104,7 +104,7 @@
                                             v-bind="attrs"
                                             v-on="on"
                                         >
-                                            <v-icon size="72" class="title-icon ma-8">
+                                            <v-icon size="72" class="home-icon ma-8">
                                                 mdi-album
                                             </v-icon>
                                         </v-card>
@@ -119,7 +119,7 @@
                                             v-bind="attrs"
                                             v-on="on"
                                         >
-                                            <v-icon size="72" class="title-icon ma-8">
+                                            <v-icon size="72" class="home-icon ma-8">
                                                 mdi-comment-question
                                             </v-icon>
                                         </v-card>
@@ -136,7 +136,7 @@
                     v-show="!$vuetify.breakpoint.mobile"
                 >
                     <v-card-title>
-                        <v-icon class="title-icon" large> mdi-calendar-month </v-icon>
+                        <v-icon class="home-icon" large> mdi-calendar-month </v-icon>
                         <span class="mx-4 text-h5 font-weight-black">签到</span>
                     </v-card-title>
                     <v-divider />
@@ -191,5 +191,8 @@ export default {
 }
 .info-card {
     margin-bottom: 32px;
+}
+.home-icon {
+    color: inherit !important;
 }
 </style>
