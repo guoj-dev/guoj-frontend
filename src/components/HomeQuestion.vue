@@ -2,7 +2,6 @@
     <v-card
         elevation="3"
         class="rounded-lg"
-        :max-width="$vuetify.breakpoint.mobile?'calc(100vw - 164px)':'calc(100vw - 560px - 689px)'"
     >
         <v-card-title>
             <v-icon class="title-icon" large> mdi-progress-question </v-icon>
