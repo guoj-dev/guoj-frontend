@@ -122,6 +122,9 @@ export default {
 </script>
 
 <style scoped>
+.title-icon {
+    color: inherit!important;
+}
 .square {
 	width: 100%;
 }
