@@ -55,7 +55,7 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 .title-icon {
     color: currentColor!important;
 }
