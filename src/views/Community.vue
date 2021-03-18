@@ -20,7 +20,8 @@
 								hint="使用GuOJ Favored Markdown编辑"
 							></v-textarea>
 						</div>
-						<div class="d-flex align-end ml-2">
+						<div class="d-flex flex-column justify-end ml-2">
+							<v-checkbox label="Preview"></v-checkbox>
 							<v-btn color="primary" style="margin-bottom: 22px">
 								<v-icon left>mdi-send</v-icon>
 								Send
@@ -42,7 +43,7 @@
 					<v-card class="card-container mt-4 pa-4" elevation="6">
 						<span class="text-h5 font-weight-black">活跃好友</span>
 						<v-list>
-							<v-list-item link>
+							<v-list-item>
 								<v-list-item-avatar>
 									<v-avatar color="purple" size="40">
 										<v-icon dark>mdi-account</v-icon>
@@ -54,9 +55,15 @@
 										Komeiji Koishi
 									</v-list-item-title>
 								</v-list-item-content>
+								<v-btn icon small>
+									<v-icon small>mdi-at</v-icon>
+								</v-btn>
+								<v-btn icon small>
+									<v-icon small>mdi-chat-plus</v-icon>
+								</v-btn>
 							</v-list-item>
 
-							<v-list-item link>
+							<v-list-item>
 								<v-list-item-avatar>
 									<v-avatar color="red" size="40">
 										<v-icon dark>mdi-account</v-icon>
@@ -68,8 +75,14 @@
 										Hakurei Reimu
 									</v-list-item-title>
 								</v-list-item-content>
+								<v-btn icon small>
+									<v-icon small>mdi-at</v-icon>
+								</v-btn>
+								<v-btn icon small>
+									<v-icon small>mdi-chat-plus</v-icon>
+								</v-btn>
 							</v-list-item>
-							<v-list-item link>
+							<v-list-item>
 								<v-list-item-avatar>
 									<v-avatar color="black" size="40">
 										<v-icon dark>mdi-account</v-icon>
@@ -81,8 +94,14 @@
 										Kirisame Marisa
 									</v-list-item-title>
 								</v-list-item-content>
+								<v-btn icon small>
+									<v-icon small>mdi-at</v-icon>
+								</v-btn>
+								<v-btn icon small>
+									<v-icon small>mdi-chat-plus</v-icon>
+								</v-btn>
 							</v-list-item>
-							<v-list-item link>
+							<v-list-item>
 								<v-list-item-avatar>
 									<v-avatar color="pink" size="40">
 										<v-icon dark>mdi-account</v-icon>
@@ -94,15 +113,19 @@
 										Remilia Scarlet
 									</v-list-item-title>
 								</v-list-item-content>
+								<v-btn icon small>
+									<v-icon small>mdi-at</v-icon>
+								</v-btn>
+								<v-btn icon small>
+									<v-icon small>mdi-chat-plus</v-icon>
+								</v-btn>
 							</v-list-item>
 						</v-list>
 					</v-card>
 					<v-card class="card-container mt-4 pa-4" elevation="6">
 						<span class="text-h5 font-weight-black">推荐</span>
 						<v-card-text>
-							<div class="pa-8 text-center text-h6">
-								暂无推荐
-							</div>
+							<div class="pa-8 text-center text-h6">暂无推荐</div>
 						</v-card-text>
 					</v-card>
 				</v-col>

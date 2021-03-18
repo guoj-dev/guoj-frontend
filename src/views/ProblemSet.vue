@@ -12,7 +12,7 @@
                     <v-col cols="9">
                         <v-list class="my-4 flex-grow-1">
                             <v-list-item
-                                link
+                                to="ProblemView"
                                 class="rounded transition-swing"
                                 v-for="(obj, i) in Problems"
                                 :key="i"
