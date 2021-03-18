@@ -99,6 +99,12 @@ const routes = [
         component: () =>
             import(/* webpackChunkName: "about" */ "../views/Community.vue"),
     },
+    {
+        path: "/UserTimeline/",
+        name: "UserTimeline",
+        component: () =>
+            import(/* webpackChunkName: "about" */ "../views/UserTimeline.vue"),
+    },
 ];
 
 const router = new VueRouter({

@@ -3,7 +3,10 @@
 		<div class="mt-16">
 			<v-row justify="center">
 				<v-col cols="6" class="d-flex flex-column py-0">
-					<v-card class="d-flex card-container my-4 pa-4" elevation="6">
+					<v-card
+						class="d-flex card-container my-4 pa-4"
+						elevation="6"
+					>
 						<div class="mr-4">
 							<v-avatar size="64">
 								<v-img
@@ -18,7 +21,7 @@
 							></v-textarea>
 						</div>
 						<div class="d-flex align-end ml-2">
-							<v-btn color="primary" style="margin-bottom:22px;">
+							<v-btn color="primary" style="margin-bottom: 22px">
 								<v-icon left>mdi-send</v-icon>
 								Send
 							</v-btn>
@@ -36,9 +39,71 @@
 					</v-card>
 				</v-col>
 				<v-col cols="4" class="py-0">
-					<v-card class="card-container mt-4 pa-4" elevation="6"> 
-						<span class="text-h5 font-weight-bold">活跃好友</span>
-						
+					<v-card class="card-container mt-4 pa-4" elevation="6">
+						<span class="text-h5 font-weight-black">活跃好友</span>
+						<v-list>
+							<v-list-item link>
+								<v-list-item-avatar>
+									<v-avatar color="purple" size="40">
+										<v-icon dark>mdi-account</v-icon>
+									</v-avatar>
+								</v-list-item-avatar>
+
+								<v-list-item-content>
+									<v-list-item-title>
+										Komeiji Koishi
+									</v-list-item-title>
+								</v-list-item-content>
+							</v-list-item>
+
+							<v-list-item link>
+								<v-list-item-avatar>
+									<v-avatar color="red" size="40">
+										<v-icon dark>mdi-account</v-icon>
+									</v-avatar>
+								</v-list-item-avatar>
+
+								<v-list-item-content>
+									<v-list-item-title>
+										Hakurei Reimu
+									</v-list-item-title>
+								</v-list-item-content>
+							</v-list-item>
+							<v-list-item link>
+								<v-list-item-avatar>
+									<v-avatar color="black" size="40">
+										<v-icon dark>mdi-account</v-icon>
+									</v-avatar>
+								</v-list-item-avatar>
+
+								<v-list-item-content>
+									<v-list-item-title>
+										Kirisame Marisa
+									</v-list-item-title>
+								</v-list-item-content>
+							</v-list-item>
+							<v-list-item link>
+								<v-list-item-avatar>
+									<v-avatar color="pink" size="40">
+										<v-icon dark>mdi-account</v-icon>
+									</v-avatar>
+								</v-list-item-avatar>
+
+								<v-list-item-content>
+									<v-list-item-title>
+										Remilia Scarlet
+									</v-list-item-title>
+								</v-list-item-content>
+							</v-list-item>
+						</v-list>
+					</v-card>
+					<v-card class="card-container mt-4 pa-4" elevation="6">
+						<span class="text-h5 font-weight-black">推荐</span>
+						<v-card-text>
+							<div class="pa-8 text-center text-h6">
+								暂无推荐
+							</div>
+						</v-card-text>
 					</v-card>
 				</v-col>
 			</v-row>
