@@ -105,6 +105,15 @@ const routes = [
         component: () =>
             import(/* webpackChunkName: "about" */ "../views/UserTimeline.vue"),
     },
+    {
+        path: "/login",
+        name: "Login",
+        meta: {
+            DefaultView: true,
+        },
+        component: () =>
+            import(/* webpackChunkName: "about" */ "../views/Login.vue"),
+    },
 ];
 
 const router = new VueRouter({
