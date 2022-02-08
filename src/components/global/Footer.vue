@@ -1,7 +1,7 @@
 <template>
     <v-footer absolute class="footer font-weight-medium text-caption">
         <v-col class="text-center pa-0" cols="12">
-            <strong>Powered By GuOJ and HydroJudge</strong>
+            <strong>Powered By GuOJ Community with ♥</strong>
         </v-col>
     </v-footer>
 </template>
