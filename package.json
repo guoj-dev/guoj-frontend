@@ -15,6 +15,7 @@
     "apollo-link-error": "^1.1.13",
     "apollo-link-http": "^1.5.17",
     "core-js": "^3.6.5",
+<<<<<<< HEAD
     "g": "^2.0.1",
     "graphql": "^16.3.0",
     "graphql-tag": "^2.12.6",
@@ -22,6 +23,12 @@
     "pnpm": "^6.30.0",
     "prismjs": "^1.23.0",
     "tailwindcss": "^3.0.19",
+=======
+    "graphql": "^16.3.0",
+    "graphql-tag": "^2.12.6",
+    "katex": "^0.12.0",
+    "prismjs": "^1.23.0",
+>>>>>>> a815593cbc42c5cd6ebf35c016450e0f6ee04366
     "vue": "^2.6.11",
     "vue-apollo": "^3.1.0",
     "vue-router": "^3.2.0",
@@ -57,7 +64,8 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+    }
   },
   "browserslist": [
     "> 1%",
