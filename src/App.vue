@@ -39,6 +39,12 @@ export default {
         },
     },
 
+    computed: {
+        isDefaultContainer() {
+            return this.$route.meta.DefaultView;
+        }
+    },
+
     data: () => ({
         ops: {
             vuescroll: { wheelScrollDuration: 200 },
